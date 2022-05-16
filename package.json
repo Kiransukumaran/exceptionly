@@ -1,0 +1,31 @@
+{
+  "name": "exceptionly",
+  "version": "1.0.0",
+  "description": "zoom meeting scheduler",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index",
+    "test": "npm test",
+    "pretty": "prettier --write \"**/*.js\""
+  },
+  "keywords": [
+    "zoom",
+    "calander"
+  ],
+  "author": "Kiran Sukumaran",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "calendar-slots": "^1.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "google-calendar": "^1.3.2",
+    "googleapis": "^100.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prettier": "2.6.2"
+  }
+}
